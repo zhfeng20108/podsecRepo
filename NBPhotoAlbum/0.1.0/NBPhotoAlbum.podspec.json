@@ -1,0 +1,68 @@
+{
+  "name": "NBPhotoAlbum",
+  "version": "0.1.0",
+  "summary": "photo album.",
+  "homepage": "git@gitlab.pengpeng.la:ioscore/ppphotoalbum.git",
+  "authors": "zhfeng",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@gitlab.pengpeng.la:ioscore/ppphotoalbum.git",
+    "tag": "0.1.0"
+  },
+  "license": "MIT",
+  "description": "a photo album.",
+  "resources": [
+    "MWPhotoBrowser/MWPhotoBrowser.bundle",
+    "NBPhotoAlbum/NBPhotoAlbum.bundle"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "ImageIO",
+    "QuartzCore",
+    "AssetsLibrary",
+    "MediaPlayer"
+  ],
+  "weak_frameworks": "Photos",
+  "dependencies": {
+    "JGProgressHUD": [
+
+    ],
+    "DACircularProgress": [
+      "~> 2.3"
+    ],
+    "SDWebImage": [
+
+    ],
+    "pop": [
+
+    ],
+    "PSTCollectionView": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "MWPhotoBrowser",
+      "source_files": "MWPhotoBrowser/*.{h,m}",
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/MWPhotoBrowser"
+      }
+    },
+    {
+      "name": "NBPhotoAlbum",
+      "source_files": "NBPhotoAlbum/*.{h,m}",
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/NBPhotoAlbum"
+      }
+    },
+    {
+      "name": "NBBigPhotoBrowser",
+      "source_files": "NBBigPhotoBrowser/*.{h,m}",
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/NBBigPhotoBrowser"
+      }
+    }
+  ]
+}
