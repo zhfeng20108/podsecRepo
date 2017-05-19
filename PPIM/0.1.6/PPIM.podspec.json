@@ -1,0 +1,37 @@
+{
+  "name": "PPIM",
+  "version": "0.1.6",
+  "summary": "PPImage",
+  "homepage": "https://github.com/upworldcjw",
+  "license": "MIT",
+  "authors": {
+    "jianwei.chen": "1042294579@qq.com"
+  },
+  "source": {
+    "git": "git@gitlab.pengpeng.la:ioscore/ppim.git",
+    "tag": "0.1.6"
+  },
+  "description": "PPImage description.",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "PPIM/**/*.{h,m}",
+  "resources": "PPIM/**/*.{xcdatamodel}",
+  "dependencies": {
+    "NBDataBase": [
+
+    ],
+    "XMPPFramework": [
+
+    ],
+    "PPUtilities": [
+
+    ]
+  },
+  "frameworks": "CoreData",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/XMPPFramework/module",
+    "ENABLE_BITCODE": "NO"
+  }
+}
