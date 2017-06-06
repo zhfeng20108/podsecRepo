@@ -1,6 +1,6 @@
 {
   "name": "PPUtilities_UpLive",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "summary": "PengPeng PPUtilities.",
   "homepage": "https://test1/PPUtilitiesLite",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "git@gitlab.pengpeng.la:ioscore/pputility.git",
-    "tag": "0.2.5"
+    "tag": "0.2.6"
   },
   "requires_arc": true,
   "default_subspecs": [
@@ -44,6 +44,13 @@
       "subspecs": [
         {
           "name": "Base",
+          "ios": {
+            "dependencies": {
+              "JWDateSetting": [
+
+              ]
+            }
+          },
           "source_files": "PPUtilities/Category/Base/**/*.{h,m}"
         },
         {
