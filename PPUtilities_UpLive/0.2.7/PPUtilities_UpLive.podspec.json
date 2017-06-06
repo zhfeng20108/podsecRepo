@@ -1,6 +1,6 @@
 {
   "name": "PPUtilities_UpLive",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "summary": "PengPeng PPUtilities.",
   "homepage": "https://test1/PPUtilitiesLite",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "git@gitlab.pengpeng.la:ioscore/pputility.git",
-    "tag": "0.2.6"
+    "tag": "0.2.7"
   },
   "requires_arc": true,
   "default_subspecs": [
