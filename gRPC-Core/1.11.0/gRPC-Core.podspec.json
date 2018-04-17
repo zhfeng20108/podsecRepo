@@ -1,6 +1,6 @@
 {
   "name": "gRPC-Core",
-  "version": "1.12.0-dev",
+  "version": "1.11.0",
   "summary": "Core cross-platform gRPC library, written in C",
   "homepage": "https://grpc.io",
   "license": "Apache License, Version 2.0",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/grpc/grpc.git",
-    "tag": "v1.12.0-dev"
+    "tag": "v1.11.0"
   },
   "cocoapods_version": ">= 1.2.0",
   "platforms": {
@@ -118,7 +118,7 @@
       "libraries": "z",
       "dependencies": {
         "gRPC-Core/Interface": [
-          "1.12.0-dev"
+          "1.11.0"
         ],
         "OpenSSL": [
           "~> 1.0.210"
@@ -1038,13 +1038,13 @@
       "header_mappings_dir": ".",
       "dependencies": {
         "gRPC-Core/Interface": [
-          "1.12.0-dev"
+          "1.11.0"
         ],
         "gRPC-Core/Implementation": [
-          "1.12.0-dev"
+          "1.11.0"
         ],
         "gRPC-Core/Cronet-Interface": [
-          "1.12.0-dev"
+          "1.11.0"
         ]
       },
       "source_files": [
@@ -1066,10 +1066,10 @@
       "header_mappings_dir": ".",
       "dependencies": {
         "gRPC-Core/Interface": [
-          "1.12.0-dev"
+          "1.11.0"
         ],
         "gRPC-Core/Implementation": [
-          "1.12.0-dev"
+          "1.11.0"
         ]
       },
       "source_files": [
